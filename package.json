@@ -1,0 +1,24 @@
+{
+    "name": "atlhelper",
+    "displayName": "AtlHelper",
+    "description": "Utilitários Atlanta Sistemas",
+    "version": "0.0.1",
+    "publisher": "erlisoares",
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ErliSoares/atlhelper"
+    },
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "contributes": {
+		"jsonValidation": [{
+			"fileMatch": "atlgen.json",
+			"url": "./schema/atlgen.json"
+			}]
+	}
+}

@@ -1,0 +1,166 @@
+{
+    "$id": "http://atlantasistemas.com/atlgen.json",
+    "type": "object",
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "properties": {
+      "Settings": {
+        "$id": "/properties/Settings",
+        "type": "array",
+        "items": {
+          "$id": "/properties/Settings/items",
+          "type": "object",
+          "properties": {
+            "Id": {
+              "$id": "/properties/Settings/items/properties/Id",
+              "type": "string",
+              "title": "The Id Schema ",
+              "default": "",
+              "examples": [
+                "ClassesDto"
+              ]
+            },
+            "Template": {
+              "$id": "/properties/Settings/items/properties/Template",
+              "type": "string",
+              "title": "The Template Schema ",
+              "default": "",
+              "examples": [
+                "Templates/Dto.tt"
+              ]
+            },
+            "BasePath": {
+              "$id": "/properties/Settings/items/properties/BasePath",
+              "type": "string",
+              "title": "The Basepath Schema ",
+              "default": "",
+              "examples": [
+                "Dto/Entites/"
+              ]
+            },
+            "FilterFileDelete": {
+              "$id": "/properties/Settings/items/properties/FilterFileDelete",
+              "type": "string",
+              "title": "The Filterfiledelete Schema ",
+              "default": "",
+              "examples": [
+                "*.cs"
+              ]
+            },
+            "FilterFileDeleteIgnore": {
+              "$id": "/properties/Settings/items/properties/FilterFileDeleteIgnore",
+              "type": "string",
+              "title": "The Filterfiledeleteignore Schema ",
+              "default": "",
+              "examples": [
+                "_*.cs"
+              ]
+            },
+            "Paramters": {
+              "$id": "/properties/Settings/items/properties/Paramters",
+              "type": "object",
+              "properties": {
+                "ExtensaoArquivo": {
+                  "$id": "/properties/Settings/items/properties/Paramters/properties/ExtensaoArquivo",
+                  "type": "string",
+                  "title": "The Extensaoarquivo Schema ",
+                  "default": "",
+                  "examples": [
+                    "Dto"
+                  ]
+                }
+              }
+            },
+            "ParamtersFile": {
+              "$id": "/properties/Settings/items/properties/ParamtersFile",
+              "type": "object",
+              "properties": {
+                "DadosFiltro": {
+                  "$id": "/properties/Settings/items/properties/ParamtersFile/properties/DadosFiltro",
+                  "type": "string",
+                  "title": "The Dadosfiltro Schema ",
+                  "default": "",
+                  "examples": [
+                    "atlgen-entities.json"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "Children": {
+        "$id": "/properties/Children",
+        "type": "array",
+        "items": {
+          "$id": "/properties/Children/items",
+          "type": "string",
+          "title": "The 0th Schema ",
+          "default": "",
+          "examples": [
+            "core/dal/"
+          ]
+        }
+      },
+      "Connection": {
+        "$id": "/properties/Connection",
+        "type": "object",
+        "properties": {
+          "Server": {
+            "$id": "/properties/Connection/properties/Server",
+            "type": "string",
+            "title": "The Server Schema ",
+            "default": "",
+            "examples": [
+              "host.com"
+            ]
+          },
+          "Database": {
+            "$id": "/properties/Connection/properties/Database",
+            "type": "string",
+            "title": "The Database Schema ",
+            "default": "",
+            "examples": [
+              "localhost"
+            ]
+          },
+          "User": {
+            "$id": "/properties/Connection/properties/User",
+            "type": "string",
+            "title": "The User Schema ",
+            "default": "",
+            "examples": [
+              "root"
+            ]
+          },
+          "Password": {
+            "$id": "/properties/Connection/properties/Password",
+            "type": "string",
+            "title": "The Password Schema ",
+            "default": "",
+            "examples": [
+              "admin"
+            ]
+          },
+          "Port": {
+            "$id": "/properties/Connection/properties/Port",
+            "type": "integer",
+            "title": "The Port Schema ",
+            "default": 0,
+            "examples": [
+              3306
+            ]
+          },
+          "Description": {
+            "$id": "/properties/Connection/properties/Description",
+            "type": "string",
+            "title": "The Description Schema ",
+            "default": "",
+            "examples": [
+              "Conexão de exemplo"
+            ]
+          }
+        }
+      }
+    }
+  }
